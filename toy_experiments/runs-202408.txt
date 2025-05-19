@@ -1,0 +1,169 @@
+10843611
+sbatch --time 12:00:00 --qos medium -J toy-mixed --partition general --account=ewi-insy-prb-visionlab --mem-per-gpu=4G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-cluster.py
+
+10856619..10856633 - Debug attribution variance - PE-mixed toy setting with test set
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 0 2
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 2 4
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 4 6
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 6 8
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 8 10
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 10 12
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 12 14
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 14 16
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 16 18
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 18 20
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 20 22
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 22 24
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 24 26
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 26 28
+[done] sbatch --time 4:00:00 --qos short -J toy-mixed-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 28 30
+
+10856634..10856648 - Debug attribution variance - PE-not-using toy setting
+[done] sbatch --time 4:00:00 --qos short -J toy-app-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 0 2
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 2 4
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 4 6
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 6 8
+[canceled] sbatch --time 4:00:00 --qos short -J toy-app-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 8 10
+[done] sbatch --time 4:00:00 --qos short -J toy-app-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 10 12
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 12 14
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 14 16
+[canceled] sbatch --time 4:00:00 --qos short -J toy-app-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 16 18
+[canceled] sbatch --time 4:00:00 --qos short -J toy-app-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 18 20
+[done] sbatch --time 4:00:00 --qos short -J toy-app-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 20 22
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 22 24
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-app-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 24 26
+[canceled] sbatch --time 4:00:00 --qos short -J toy-app-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 26 28
+[canceled] sbatch --time 4:00:00 --qos short -J toy-app-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app.py 28 30
+
+10856649..10856663 - Debug attribution variance - PE-using toy setting
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 0 2
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 2 4
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 4 6
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 6 8
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 8 10
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 10 12
+[fail #1] sbatch --time 4:00:00 --qos short -J toy-pos-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 12 14
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 14 16
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 16 18
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 18 20
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 20 22
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 22 24
+[done] sbatch --time 4:00:00 --qos short -J toy-pos-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 24 26
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 26 28
+[CUDA OOM] sbatch --time 4:00:00 --qos short -J toy-pos-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos.py 28 30
+
+(fail #1: "Stale file handle" on run_sens_and_shap.py, line 185)
+
+10856772..10856786,10889031..10889045,10890070..10890084 - Debug attribution variance - PE-mixed toy setting with test set - rerun after fixing glitch with saving pickles
+sbatch --time 1:00:00 --qos short -J toy-mixed-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 0 2
+sbatch --time 1:00:00 --qos short -J toy-mixed-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 2 4
+sbatch --time 1:00:00 --qos short -J toy-mixed-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 4 6
+sbatch --time 1:00:00 --qos short -J toy-mixed-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 6 8
+sbatch --time 1:00:00 --qos short -J toy-mixed-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 8 10
+sbatch --time 1:00:00 --qos short -J toy-mixed-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 10 12
+sbatch --time 1:00:00 --qos short -J toy-mixed-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 12 14
+sbatch --time 1:00:00 --qos short -J toy-mixed-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 14 16
+sbatch --time 1:00:00 --qos short -J toy-mixed-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 16 18
+sbatch --time 1:00:00 --qos short -J toy-mixed-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 18 20
+sbatch --time 1:00:00 --qos short -J toy-mixed-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 20 22
+sbatch --time 1:00:00 --qos short -J toy-mixed-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 22 24
+sbatch --time 1:00:00 --qos short -J toy-mixed-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 24 26
+sbatch --time 1:00:00 --qos short -J toy-mixed-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 26 28
+sbatch --time 1:00:00 --qos short -J toy-mixed-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed.py 28 30
+
+10856787..10856801,10889046..10889060,10890085..10890099 - Debug attribution variance - PE-not-using toy setting with 8x8 and patch size 2 - rerun after fixing glitch with saving pickles
+sbatch --time 0:30:00 --qos short -J toy-app-p2-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 0 2
+sbatch --time 0:30:00 --qos short -J toy-app-p2-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 2 4
+sbatch --time 0:30:00 --qos short -J toy-app-p2-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 4 6
+sbatch --time 0:30:00 --qos short -J toy-app-p2-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 6 8
+sbatch --time 0:30:00 --qos short -J toy-app-p2-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 8 10
+sbatch --time 0:30:00 --qos short -J toy-app-p2-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 10 12
+sbatch --time 0:30:00 --qos short -J toy-app-p2-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 12 14
+sbatch --time 0:30:00 --qos short -J toy-app-p2-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 14 16
+sbatch --time 0:30:00 --qos short -J toy-app-p2-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 16 18
+sbatch --time 0:30:00 --qos short -J toy-app-p2-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 18 20
+sbatch --time 0:30:00 --qos short -J toy-app-p2-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 20 22
+sbatch --time 0:30:00 --qos short -J toy-app-p2-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 22 24
+sbatch --time 0:30:00 --qos short -J toy-app-p2-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 24 26
+sbatch --time 0:30:00 --qos short -J toy-app-p2-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 26 28
+sbatch --time 0:30:00 --qos short -J toy-app-p2-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-app-p2.py 28 30
+
+10856802..10856816,10889061..10889075,10890100..10890114 - Debug attribution variance - PE-using toy setting with 8x8 and patch size 2 - rerun after fixing glitch with saving pickles
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 0 2
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 2 4
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 4 6
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 6 8
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 8 10
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 10 12
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 12 14
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 14 16
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 16 18
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 18 20
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 20 22
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-22 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 22 24
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-24 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 24 26
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-26 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 26 28
+sbatch --time 0:30:00 --qos short -J toy-pos-p2-28 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-pos-p2.py 28 30
+
+10899753..10899772,10899890..10899909 - Debug attribution variance - PE-mixed toy setting tuning for capacity
+sbatch --time 4:00:00 --qos short -J toy-mixed-0  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 0 5
+sbatch --time 4:00:00 --qos short -J toy-mixed-5  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 5 10
+sbatch --time 4:00:00 --qos short -J toy-mixed-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 10 15
+sbatch --time 4:00:00 --qos short -J toy-mixed-15 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 15 20
+sbatch --time 4:00:00 --qos short -J toy-mixed-20 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 20 25
+10900081
+sbatch --time 5:00:00 --qos medium -J toy-mixed-25 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 25 30
+sbatch --time 4:00:00 --qos short -J toy-mixed-30 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 30 35
+sbatch --time 4:00:00 --qos short -J toy-mixed-35 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 35 40
+sbatch --time 4:00:00 --qos short -J toy-mixed-40 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 40 45
+10900082
+sbatch --time 5:00:00 --qos medium -J toy-mixed-45 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 45 50
+sbatch --time 4:00:00 --qos short -J toy-mixed-50 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 50 55
+sbatch --time 4:00:00 --qos short -J toy-mixed-55 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 55 60
+sbatch --time 4:00:00 --qos short -J toy-mixed-60 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 60 65
+sbatch --time 4:00:00 --qos short -J toy-mixed-65 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 65 70
+sbatch --time 4:00:00 --qos short -J toy-mixed-70 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 70 75
+sbatch --time 4:00:00 --qos short -J toy-mixed-75 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 75 80
+sbatch --time 4:00:00 --qos short -J toy-mixed-80 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 80 85
+sbatch --time 4:00:00 --qos short -J toy-mixed-85 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 85 90
+sbatch --time 4:00:00 --qos short -J toy-mixed-90 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 90 95
+sbatch --time 4:00:00 --qos short -J toy-mixed-95 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-mixed-capacity.py 95 100
+
+10941260..10941263 - Debug attribution variance - Get tokens
+sbatch --time 2:00:00 --qos short -J toy-mixed-0  --partition general --account=ewi-insy-prb-visionlab --mem=16G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-tokens.py 0 5
+
+11174906..11174911,11179037..11179042 - Debug attribution variance - Deep toy
+sbatch --time 4:00:00 --qos short -J toy-deep-0  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 0 2
+sbatch --time 4:00:00 --qos short -J toy-deep-2  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 2 4
+sbatch --time 4:00:00 --qos short -J toy-deep-4  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 4 6
+sbatch --time 4:00:00 --qos short -J toy-deep-6  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 6 8
+sbatch --time 4:00:00 --qos short -J toy-deep-8  --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 8 10
+sbatch --time 4:00:00 --qos short -J toy-deep-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy-experiments/run.sbatch python debug-attribution-variance-deep.py 10 11
+
+11312509..11312518,11312636..11312645,11312716..11312725 - Debug attribution variance - PE-mixed toy setting with test set - rerun without spatial features
+11312742
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-0 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 0 2
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-2 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 2 4
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-4 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 4 6
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-6 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 6 8
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-8 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 8 10
+11312743
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-10 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 10 12
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-12 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 12 14
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-14 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 14 16
+11312789
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-16 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 16 18
+sbatch --time 2:00:00 --qos short -J toy-mixed-nospatial-18 --partition general --account=ewi-insy-prb-visionlab --mem=24G --gres=gpu:a40:1 --cpus-per-task=2 vit-position-info/toy_experiments/run.sbatch python debug-attribution-variance-mixed-nospatial.py 18 20
+
+
+
+--- DONE ---
+
+
+
+--- RUNNING ---
+
+
+
+--- TO RUN ---
+

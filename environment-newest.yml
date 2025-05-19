@@ -1,0 +1,33 @@
+name: vit
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - einops
+  - jupyter
+  - matplotlib
+  - munch
+  - numpy
+  - scipy
+  - pandas
+  - python
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - timm
+  - torchinfo
+  - matplotlib
+  - wandb
+  - pytorch-lightning
+  - torchmetrics
+  - seaborn
+  - easydict
+  - pytest
+  - pip:
+    - ml-collections==0.1.1
+    - pandas==1.4.3
+    - pillow==9.2.0
+    - pip==22.1.2
