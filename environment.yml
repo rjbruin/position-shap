@@ -4,25 +4,26 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - einops=0.4.1
+  - pip
+  - einops
   - jupyter
   - matplotlib
-  - munch=2.5.0
-  - numpy=1.23.1
+  - munch
+  - numpy
   - scipy
   - pandas
-  - python=3.10.4
-  - pytorch=1.12.1
+  - python
+  - pytorch
   - torchvision
   - torchaudio
   - cudatoolkit=11.3
-  - timm=0.9.2
-  - torchinfo=1.7.0
+  - timm
+  - torchinfo
   - matplotlib
-  - wandb=0.13.1
-  - pytorch-lightning=1.9.3
-  - torchmetrics=0.9.3
-  - seaborn=0.11.2
+  - wandb
+  - pytorch-lightning
+  - torchmetrics
+  - seaborn
   - easydict
   - pytest
   - pip:
